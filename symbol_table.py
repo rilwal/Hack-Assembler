@@ -21,7 +21,7 @@ class SymbolTable:
 
     def __setitem__(self, symbol, address):
         """ Adds the pair (symbol, address) to the table. """
-        self.table[key] = symbol
+        self.table[symbol] = address
 
     def __contains__(self, symbol):
         """ Does the symbol table contain the given symbol """

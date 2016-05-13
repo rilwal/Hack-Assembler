@@ -1,5 +1,5 @@
 
-from parser import Command
+from hack_parser import Command
 
 def translate(command):
     if command.type == Command.C_COMMAND:
@@ -56,7 +56,7 @@ def comp(command):
         "-m":  0b1110011,
         "m+1": 0b1110111,
         "m-1": 0b1110010,
-        "d+m": 0b1000111,
+        "d+m": 0b1000010,
         "d-m": 0b1010011,
         "m-d": 0b1000111,
         "d&m": 0b1000000,
